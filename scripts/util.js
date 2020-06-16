@@ -48,8 +48,7 @@ function indexOfResultat(t, o){
 	var i = 0;
 	while( (!trouve) && (i<limit) ){
 		var c = t[i];
-		console.log(t[i]+" ---> "+o);
-		console.log(c.titre +" ---> "+ o.titre);
+		
 		if ((c.titre == o.titre) && (c.date == o.date)){
 			trouve = true;
 		}
